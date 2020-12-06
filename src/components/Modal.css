@@ -1,0 +1,38 @@
+.style-modal {
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  z-index: 999;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide-modal{
+    display: none !important;
+}
+
+
+.modal-body .modal-img{
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 2em;
+}
+
+ .icon{
+    color: #292b2c ;
+}
+ .icon:hover{
+    color: #d9534f ;
+}
+
+ .icon-favorite{
+
+    color: #d9534f ;
+}

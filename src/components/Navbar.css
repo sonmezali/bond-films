@@ -1,0 +1,14 @@
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      /* position: absolute; */
+      min-width: 100%   ;
+    }
+  }
+
+
+@media only screen and (min-width: 600px) {
+    .nvb {
+      display:none
+    }
+  }
